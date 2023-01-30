@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.test {
+    display: inline;
+     background-color: beige;
+     color: red;
+     font-size: 30px;
+     text-align:justify
+}
+
+.test_div{
+    /* margin: 10; */
+    text-align: center;
+    border:2px dotted;
+}
+
+ul {
+     color: chocolate;
+}
+ /* ul li {
+     color: blueviolet;
+ } */
+
+ .li_test {
+     color: blue ;
+ }
+
+input[type="text"] {
+ background-color: pink;
+ color: blue;
+}
+
+input[type="password"] {
+    color: brown;
+}
+
+.font1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+}
+
+
+.fontp {
+    font-family: 'Dancing Script', cursive;
+font-size: 40px;
+font-weight: bold;
+}
+
+ .box1{
+
+ }
+
+ .box2 {
+    border: 1px solid red;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+    width: 300px;
+height: 50px;
+ }
+
+a:link {
+/* font-family: 'Dancing Script', cursive; */
+ text-decoration: none; 
+ color: green; 
+font-size: 30px;
+}
+
+/* a:visited {
+    color: yellow;
+} */
+
+a:hover {
+    color: red;
+}
+a:active{
+    color: blue;
+}
+
+ .dropdown-items {
+  display: none;
+ }
+
+ .dropdown {
+    border: 1px solid;
+    display: block;
+    text-align: center;
+ }
+.dropdown:hover .dropdown-items{
+  display: block;
+ 
+}
+
+.test_ul ul{
+     color: black;
+    font-size: 25px;
+     list-style:none;
+}
+
+.test_ul ul li:first-child {
+    color: blue;
+}
+.test_ul ul li:last-child {
+    color: red;
+}
+.test_ul ul li:nth-child(3) {
+    color: yellowgreen;
+}
+
+.pseudo-el::first-letter{
+color: goldenrod;
+font-style: italic;
+font-size: 30px;
+font-weight: bold;
+}
+.pseudo-el::before {
+    content: "Before";
+color: green;
+}
+
+.pseudo-el::after {
+content:url("https://icons.iconarchive.com/icons/treetog/i/48/Floppy-Small-icon.png"); 
+width: 50px;
+height: 50px;
+}
