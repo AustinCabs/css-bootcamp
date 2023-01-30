@@ -1,74 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .test {
-    display: inline;
-     background-color: beige;
-     color: red;
-     font-size: 30px;
-     text-align:justify
+  display: inline;
+  background-color: beige;
+  color: red;
+  font-size: 30px;
+  text-align: justify;
 }
 
-.test_div{
-    /* margin: 10; */
-    text-align: center;
-    border:2px dotted;
+.test_div {
+  /* margin: 10; */
+  text-align: center;
+  border: 2px dotted;
 }
 
 ul {
-     color: chocolate;
+  color: chocolate;
 }
- /* ul li {
+/* ul li {
      color: blueviolet;
  } */
 
- .li_test {
-     color: blue ;
- }
+.li_test {
+  color: blue;
+}
 
 input[type="text"] {
- background-color: pink;
- color: blue;
+  background-color: pink;
+  color: blue;
 }
 
 input[type="password"] {
-    color: brown;
+  color: brown;
 }
 
 .font1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
 }
-
 
 .fontp {
-    font-family: 'Dancing Script', cursive;
-font-size: 40px;
-font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: bold;
 }
 
- .box1{
+.box1 {
+}
 
- }
-
- .box2 {
-    border: 1px solid red;
-    padding: 5px;
-    margin: 10px auto;
-    text-align: center;
-    width: 300px;
-height: 50px;
- }
+.box2 {
+  border: 1px solid red;
+  padding: 5px;
+  margin: 10px auto;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+}
 
 a:link {
-/* font-family: 'Dancing Script', cursive; */
- text-decoration: none; 
- color: green; 
-font-size: 30px;
+  /* font-family: 'Dancing Script', cursive; */
+  text-decoration: none;
+  color: green;
+  font-size: 30px;
 }
 
 /* a:visited {
@@ -76,55 +74,106 @@ font-size: 30px;
 } */
 
 a:hover {
-    color: red;
+  color: red;
 }
-a:active{
-    color: blue;
+a:active {
+  color: blue;
 }
 
- .dropdown-items {
+.dropdown-items {
   display: none;
- }
-
- .dropdown {
-    border: 1px solid;
-    display: block;
-    text-align: center;
- }
-.dropdown:hover .dropdown-items{
-  display: block;
- 
 }
 
-.test_ul ul{
-     color: black;
-    font-size: 25px;
-     list-style:none;
+.dropdown {
+  border: 1px solid;
+  display: block;
+  text-align: center;
+}
+.dropdown:hover .dropdown-items {
+  display: block;
+}
+
+.test_ul ul {
+  color: black;
+  font-size: 25px;
+  list-style: none;
 }
 
 .test_ul ul li:first-child {
-    color: blue;
+  color: blue;
 }
 .test_ul ul li:last-child {
-    color: red;
+  color: red;
 }
 .test_ul ul li:nth-child(3) {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
-.pseudo-el::first-letter{
-color: goldenrod;
-font-style: italic;
-font-size: 30px;
-font-weight: bold;
+.pseudo-el::first-letter {
+  color: goldenrod;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
 }
 .pseudo-el::before {
-    content: "Before";
-color: green;
+  content: "Before";
+  color: green;
 }
 
 .pseudo-el::after {
-content:url("https://icons.iconarchive.com/icons/treetog/i/48/Floppy-Small-icon.png"); 
-width: 50px;
-height: 50px;
+  content: url("https://icons.iconarchive.com/icons/treetog/i/48/Floppy-Small-icon.png");
+  /* width: 50px;
+height: 50px; */
+}
+
+#top_con {
+    /* display: flex;
+    justify-content: center;  */
+    /* align-items: center; */
+}
+.container {
+  background-color: rgb(209, 113, 78);
+  width: 450px;
+  height: 350px;
+  /* positions fixed; */
+ 
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box-1 {
+  background-color: coral;
+  /* top: 10px; */
+  /* position relative */
+    /* position: relative;
+    bottom: 12px;
+    left: 12px; */
+  /* padding: 10px auto; */
+}
+.box-2 {
+  background-color: rgb(94, 167, 100);
+      /* position: relative; */
+    /* bottom: 12px;
+    left: 12px; */
+ /* width: 400px;
+ height: 100px; */
+ position: absolute;
+top: 100px;
+left: 100px;
+z-index: 11;
+}
+.box-3 {
+  background-color: rgb(107, 90, 199);
+/* position: relative;
+z-index: 12; */
+position: sticky;
+top: 0;
 }
