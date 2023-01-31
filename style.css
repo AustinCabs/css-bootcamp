@@ -177,3 +177,11 @@ z-index: 12; */
 position: sticky;
 top: 0;
 }
+
+.scroll {
+    background-color: azure;
+ border: 3px solid red;
+ width: 300px;
+ height: 200px;
+ overflow-y: auto;
+}
