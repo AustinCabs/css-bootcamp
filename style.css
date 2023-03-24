@@ -127,16 +127,15 @@ height: 50px; */
 }
 
 #top_con {
-    /* display: flex;
+  /* display: flex;
     justify-content: center;  */
-    /* align-items: center; */
+  /* align-items: center; */
 }
 .container {
   background-color: rgb(209, 113, 78);
   width: 450px;
   height: 350px;
   /* positions fixed; */
- 
 }
 
 .box {
@@ -146,42 +145,61 @@ height: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .box-1 {
   background-color: coral;
   /* top: 10px; */
   /* position relative */
-    /* position: relative;
+  /* position: relative;
     bottom: 12px;
     left: 12px; */
   /* padding: 10px auto; */
 }
 .box-2 {
   background-color: rgb(94, 167, 100);
-      /* position: relative; */
-    /* bottom: 12px;
+  /* position: relative; */
+  /* bottom: 12px;
     left: 12px; */
- /* width: 400px;
+  /* width: 400px;
  height: 100px; */
- position: absolute;
-top: 100px;
-left: 100px;
-z-index: 11;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 11;
 }
 .box-3 {
   background-color: rgb(107, 90, 199);
-/* position: relative;
+  /* position: relative;
 z-index: 12; */
-position: sticky;
-top: 0;
+  position: sticky;
+  top: 0;
 }
 
 .scroll {
-    background-color: azure;
- border: 3px solid red;
- width: 300px;
- height: 200px;
- overflow-y: auto;
+  background-color: azure;
+  border: 3px solid red;
+  width: 300px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.box_transition {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  /* transition-property:all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(.22,1.22,.98,.12); */
+  transition: all 1s;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.box_transition:hover {
+  background-color: orangered;
+  height: 400px;
+  width: 400px;
 }
