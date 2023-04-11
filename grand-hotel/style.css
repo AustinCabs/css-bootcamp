@@ -8,6 +8,10 @@ body {
   padding: 0;
   font-family: "Montserrat";
 }
+
+h1 {
+  font-family: "Josefin Sans";
+}
 /* reset */
 
 /* navbar */
@@ -215,7 +219,7 @@ body {
 .header {
   margin-left: 8rem;
   height: 100vh;
-  background: linear-gradient(to top, rgba(0, 0, 0, .6),rgba(0, 0, 0, .6)),
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("img/header-1.jpeg") center no-repeat;
   background-size: cover;
 }
@@ -226,11 +230,11 @@ figure {
 }
 
 .brand h3 {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-size: 2.7rem;
   font-weight: 400;
   color: #deaa86;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .brand {
@@ -245,11 +249,11 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- }
+}
 
 .banner h1 {
   margin: 0;
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-size: 7rem;
   font-weight: 400;
   margin-bottom: 0;
@@ -259,8 +263,7 @@ figure {
 .banner p {
   font-size: 3.5rem;
   font-weight: 300;
-  animation: banner 1.5s .5s backwards;
-
+  animation: banner 1.5s 0.5s backwards;
 }
 
 .banner button {
@@ -268,20 +271,20 @@ figure {
   padding: 1.2rem 2rem;
   font-size: 2rem;
   color: #333;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   border: none;
   border-radius: 10rem;
   outline: none;
-  background: linear-gradient(to right, gold,goldenrod);
+  background: linear-gradient(to right, gold, goldenrod);
   cursor: pointer;
   animation: banner 1s 1s backwards;
 }
 
 .banner button:hover {
-  background: linear-gradient(to left, gold,goldenrod);
+  background: linear-gradient(to left, gold, goldenrod);
 }
 .banner button:active {
-  transform: translateY(.2rem);
+  transform: translateY(0.2rem);
 }
 
 @keyframes banner {
@@ -292,5 +295,105 @@ figure {
     opacity: 1;
   }
 }
-
 /* end header */
+
+/* about us */
+.about-us {
+  margin-left: 8rem;
+  display: flex;
+  background-color: #ddd;
+}
+
+.about-us-content {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.about-us-content h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.underline__small {
+  margin: 0 auto 1rem auto;
+  width: 9rem;
+  height: 0.1rem;
+  background-color: #b85d1c;
+}
+
+.underline__big {
+  width: 20rem;
+  height: 0.1rem;
+  background-color: #b85d1c;
+}
+
+.about-us-content h3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #b85d1c;
+}
+.about-us-content p {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.about-us-content button {
+  width: 15rem;
+  padding: 0.7rem 0.5rem;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #b85d1c;
+  background-color: transparent;
+  border: 0.1rem solid #b85d1c;
+  outline: none;
+  cursor: pointer;
+}
+
+.about-us-content button i {
+  margin-left: 0.5rem;
+  transition: margin-left 0.4s;
+}
+
+.about-us-content button:hover i {
+  margin-left: 1.5rem;
+}
+.about-us-images {
+  flex: 1 1;
+  position: relative;
+}
+
+.about-us-images .image{
+width: 32rem;
+position: absolute;
+top: 50%;
+left: 50%;
+box-shadow: 0 3rem 6rem rgba(0,0,0,.4);
+border-radius: .4rem;
+border: .2rem solid #b85d1c;
+}
+
+.image-1{
+transform: translate(-20%,-90%);
+}
+.image-2{
+transform: translate(-70%,-70%);
+}
+.image-3{
+transform: translate(-50%,-50%);
+}
+.image-4{
+transform: translate(-30%,-30%);
+}
+/* end about us */
