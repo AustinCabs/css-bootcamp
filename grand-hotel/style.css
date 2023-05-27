@@ -495,3 +495,53 @@ justify-content: center;
   transition: background-color .5s ease-out;
  }
 /* rooms end*/
+
+/* customer */
+.customer {
+  margin-left: 8rem;
+  background-color: #15141b;
+  padding-bottom: 8rem;
+}
+.customer-paragraph {
+  font-size: 1.8rem;
+  color: #ddd;
+  text-align: center;
+  width: 50rem;
+  margin: 2rem auto 8rem auto;
+}
+.customer-card-wrapper {
+  display: flex;
+justify-content: space-evenly;
+  }
+.customer-card {
+  width: 60rem;
+  display: flex;
+  background-color: #ddd;
+ }
+.customer-img-wrapper {
+  margin: auto 0;
+}
+
+.customer-img-wrapper img{
+width: 20rem;
+margin-left: -1.3rem;
+}
+ .customer-info-wrapper {
+  padding: 0 2rem;
+ }
+ .customer-fullname{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0;
+ }
+ .customer-p1{
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #b85d1c;
+ }
+ .customer-p2{
+  font-size: 1.5rem;
+  font-style: italic;
+ }
+
+/* customer */
