@@ -217,7 +217,6 @@ body {
 .dropdown-list-link:hover {
     color: #458a9f;
 }
-
 /* end of navbar */
 
 /* banner */
@@ -283,6 +282,7 @@ body {
 
 .slideshow {
     height: 100%;
+    overflow: hidden;
 }
 
 .slideshow-wrapper {
@@ -300,57 +300,43 @@ body {
 }
 
 @keyframes slideshow {
-    0% {
-        left: 0;
-    }
+    0% {left: 0}
 
-    10% {
-        left: 0;
-    }
+    10% {left: 0}
 
-    15% {
-        left: -100;
-    }
+    15% {left: -100%}
 
-    25% {
-        left: -100;
-    }
+    25% {left: -100%}
 
-    30% {
-        left: -200;
-    }
+    30% {left: -200%}
 
-    40% {
-        left: -200;
-    }
+    40% {left: -200%}
 
-    45% {
-        left: -300;
-    }
+    45% {left: -300%}
 
-    55% {
-        left: -300;
-    }
+    55% {left: -300%}
 
-    60% {
-        left: -200;
-    }
+    60% {left: -200%}
 
-    70% {
-        left: -200;
-    }
+    70% {left: -200%}
 
-    75% {
-        left: -100;
-    }
+    75% {left: -100%}
 
-    85% {
-        left: -100;
-    }
+    85% {left: -100%}
 
-    90% {
-        left: 0;
-    }
-
+    90% {left: 0}
 }
+/* end of banner */
+
+
+
+
+
+
+
+
+
+
+
+
 
